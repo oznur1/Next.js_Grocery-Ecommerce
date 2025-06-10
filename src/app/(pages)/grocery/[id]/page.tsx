@@ -1,4 +1,7 @@
-
+import OrderButtons from "@/components/detail/order-buttons";
+import OrganicBadge from "@/components/detail/organic-badge";
+import ProductDetails from "@/components/detail/product-details";
+import ProductInfo from "@/components/detail/product-info";
 import { getProductById } from "@/service/product-service";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,9 +35,11 @@ const Grocery: FC<Props> = async ({ params }) => {
       </div>
 
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        
+        {/* Product details */}
+        <ProductDetails grocery={grocery} />
 
-        
+        {/* Product Information */}
+        <ProductInfo grocery={grocery} />
       </div>
     </div>
   );
