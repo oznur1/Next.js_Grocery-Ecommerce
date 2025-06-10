@@ -1,37 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+##  This project is a greengrocer e-commerce site prepared with React and Next.js.
 
-First, run the development server:
+In products, there is a detail page for each product and an option to add and remove from the cart.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Stock, cart, order status of the products are listed.
+Stripe payment method is integrated to purchase the product in the cart.
+It has a user-friendly modern responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used 🎨
+⭐ TypeScript
+⭐ React
+⭐ Next.js
+⭐ MongoDB
+⭐ React to Fry
+⭐ Tailwinds
+⭐ Fry
+⭐ React-Icons
+⭐ React-Dom
+## Screenshot 🎥
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Next.js_Grocery-Ecommerce
+![EkranKayd2025-06-10152836-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/60208f7d-29b0-404c-954e-859fee5276d2)
